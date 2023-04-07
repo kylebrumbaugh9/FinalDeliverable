@@ -1,1 +1,13 @@
-# FinalDeliverable
+# Final Deliverable
+
+## Self Assessment 
+
+This project I was mainly focused on the project manager and the database management roles. It was great to be able to apply some of what I do in my work life to the bootcamp aspect as well. I was able to use Asana to manage the deliverables and we all worked together to find our strengths and assign the tasks. The greatest personal challenge that I had to overcome was getting out of my own way and making sure that I got outside of my comfort zone and continued trying to learn new things. Javascript was the hardest aspect of the class in general, for me. I found that every week I would struggle for 6 days and figure it out on the 7th. It was frustrating but there was always a "Eureka!" moment and I'm super grateful that it finally came. I think the class was structured really well to allow for that; prep, learn, struggle, figure it out, move on to the next thing. The final project was no different; the first half or two-thirds was a struggle, but things started to click and we worked together really well as a team.
+
+I also was able to help with the other aspects of the project in some ways as well. I helped Andrew with some of the data cleaning and I helped Seth with the readme file and the presentation. Theodore really led the machine learning aspect and I didn't do much there because that aspect was still pretty new to me and I wasn't very confident. However, I feel that I was a pretty good "cheerleader" and offered to help any way I could.
+
+## Project and Team Summary
+
+Our project was focused on using the IMDb database to try to predict movie ratings and views based on other factors: regions released, runtime, actors, actresses, etc. We used a free dataset from IMDb and realized that everything was in .tsv.gz format. We worked together to figure out how to unzip, read, and clean the data using Pandas and then exported everything to a pgAdmin instance that was hooked to an Amazon RDS database. We took to Asana and looked at the grading rubric to drive the tasks that we needed to accomplish and divvied up the tasks based on our roles. I was the project manager and database manager, Andrew was the data cleaner, Theodore was the Machine Learning expert, and Seth was the dashboard guru. I think we did a really good job of working as a team
+
+From here, we used psycopg to import the data from the Amazon RDS instance into Google Colab and applied K-means clustering to figure out if we could try to apply predictive models to the data. The clustering looked really good (3 or 4 distinct clusters), but the machine learning aspect was woeful. You'd be better off throwing a dart at the wall to pick the cluster. So, we really need to look more in depth at other factors like the actors, actresses, directors, budget, etc. to see if we can determine the formula for success for movies
